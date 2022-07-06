@@ -188,6 +188,12 @@ asynchronous:
       conf: GLOBECOM
       links:
         PDF: https://arxiv.org/abs/1807.08127
+    - title: "VAFL: a Method of Vertical Asynchronous Federated Learning"
+      abbr: "VAFL"
+      year: 2020
+      conf: ICML 2020
+      links:
+        PDF: https://arxiv.org/abs/2109.04269
 
 blog:
   title: "Blog"

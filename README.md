@@ -1,5 +1,7 @@
 # Awesome Asynchronous Federated Learning
 
+[[GitHub]](https://github.com/beiyuouo/awesome-asynchronous-federated-learning) [[Web]](https://www.bj-yan.top/awesome-asynchronous-federated-learning)
+
 Collect some **Asynchronous Federated Learning** papers.
 
 Please give me a **⭐star** if you find it useful (❁´◡`❁).
@@ -71,7 +73,6 @@ If you find some overlooked papers, please open issues or pull requests(recommen
 
 - Asynchronous Federated Learning for Geospatial Applications(_ECML PKDD 2018_) [[PDF]](https://link.springer.com/chapter/10.1007/978-3-030-14880-5_2)
 - Federated learning for ultra-reliable low-latency V2V communications(_GLOBECOM_) [[PDF]](https://arxiv.org/abs/1807.08127)
-
 
 ## Blog
 
