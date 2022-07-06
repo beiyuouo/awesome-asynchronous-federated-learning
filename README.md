@@ -10,7 +10,7 @@ If you find some overlooked papers, please open issues or pull requests(recommen
 
 <!-- update-time-start -->
 
-**Last Update: Jul 06, 2022 14:19:05**
+**Last Update: Jul 06, 2022 14:25:03**
 
 <!-- update-time-end -->
 
@@ -63,6 +63,7 @@ If you find some overlooked papers, please open issues or pull requests(recommen
 
 - Adaptive Task Allocation for Asynchronous Federated and Parallelized Mobile Edge Learning(_arXiv_) [[PDF]](https://arxiv.org/abs/1905.01656)
 - **[ASO-Fed]** Asynchronous Online Federated Learning for Edge Devices with Non-IID Data(_Big Data 2020_) [[PDF]](https://ieeexplore.ieee.org/abstract/document/9378161/)
+- **[VAFL]** VAFL: a Method of Vertical Asynchronous Federated Learning(_ICML 2020_) [[PDF]](https://arxiv.org/abs/2109.04269)
 
 ### 2019
 
@@ -73,6 +74,7 @@ If you find some overlooked papers, please open issues or pull requests(recommen
 
 - Asynchronous Federated Learning for Geospatial Applications(_ECML PKDD 2018_) [[PDF]](https://link.springer.com/chapter/10.1007/978-3-030-14880-5_2)
 - Federated learning for ultra-reliable low-latency V2V communications(_GLOBECOM_) [[PDF]](https://arxiv.org/abs/1807.08127)
+
 
 ## Blog
 
