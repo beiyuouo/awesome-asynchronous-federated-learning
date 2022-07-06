@@ -1,6 +1,5 @@
 import os
 import datetime
-from matplotlib.pyplot import title
 import pytz
 
 pytz.timezone("Asia/Shanghai")
