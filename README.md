@@ -8,7 +8,7 @@ If you find some overlooked papers, please open issues or pull requests(recommen
 
 <!-- update-time-start -->
 
-**Last Update: Jul 06, 2022 14:00:02**
+**Last Update: Jul 06, 2022 14:05:38**
 
 <!-- update-time-end -->
 
@@ -47,21 +47,6 @@ If you find some overlooked papers, please open issues or pull requests(recommen
 
 ## Asynchronous
 
-### 2018
-
-- Asynchronous Federated Learning for Geospatial Applications(_ECML PKDD 2018_) [[PDF]](https://link.springer.com/chapter/10.1007/978-3-030-14880-5_2)
-- Federated learning for ultra-reliable low-latency V2V communications(_GLOBECOM_) [[PDF]](https://arxiv.org/abs/1807.08127)
-
-### 2019
-
-- **[FedAsync]** Asynchronous Federated Optimization(_OPT 2020_) [[PDF]](https://arxiv.org/abs/1903.03934)
-- **[DP-AFL]** Differentially Private Asynchronous Federated Learning for Mobile Edge Computing in Urban Informatics(_TII_) [[PDF]](https://ieeexplore.ieee.org/abstract/document/8843942)
-
-### 2020
-
-- Adaptive Task Allocation for Asynchronous Federated and Parallelized Mobile Edge Learning(_arXiv_) [[PDF]](https://arxiv.org/abs/1905.01656)
-- **[ASO-Fed]** Asynchronous Online Federated Learning for Edge Devices with Non-IID Data(_Big Data 2020_) [[PDF]](https://ieeexplore.ieee.org/abstract/document/9378161/)
-
 ### 2021
 
 - **[FedSA]** FedSA: A staleness-aware asynchronous Federated Learning algorithm with non-IID data(_FGCS Elsevier_) [[PDF]](https://www.sciencedirect.com/science/article/abs/pii/S0167739X2100064)
@@ -71,6 +56,21 @@ If you find some overlooked papers, please open issues or pull requests(recommen
 - An Asynchronous Federated Learning Approach for a Security Source Code Scanner(_ICISSP 2021_) [[PDF]](https://www.researchgate.net/publication/349402236_An_Asynchronous_Federated_Learning_Approach_for_a_Security_Source_Code_Scanner?enrichId=rgreq-91295cf9d6b78d8ff49812fae57abbf2-XXX&enrichSource=Y292ZXJQYWdlOzM0OTQwMjIzNjtBUzoxMDA2NjY1OTE4ODQwODM1QDE2MTcwMTkyNjY2MDQ%3D&el=1_x_2&_esc=publicationCoverPdf)
 - **[FedConD]** Asynchronous Federated Learning for Sensor Data with Concept Drift(_arXiv_) [[PDF]](https://arxiv.org/abs/2109.00151)
 - **[FedBuff]** Federated Learning with Buffered Asynchronous Aggregation(_arXiv_) [[PDF]](https://arxiv.org/abs/2106.06639)
+
+### 2020
+
+- Adaptive Task Allocation for Asynchronous Federated and Parallelized Mobile Edge Learning(_arXiv_) [[PDF]](https://arxiv.org/abs/1905.01656)
+- **[ASO-Fed]** Asynchronous Online Federated Learning for Edge Devices with Non-IID Data(_Big Data 2020_) [[PDF]](https://ieeexplore.ieee.org/abstract/document/9378161/)
+
+### 2019
+
+- **[FedAsync]** Asynchronous Federated Optimization(_OPT 2020_) [[PDF]](https://arxiv.org/abs/1903.03934)
+- **[DP-AFL]** Differentially Private Asynchronous Federated Learning for Mobile Edge Computing in Urban Informatics(_TII_) [[PDF]](https://ieeexplore.ieee.org/abstract/document/8843942)
+
+### 2018
+
+- Asynchronous Federated Learning for Geospatial Applications(_ECML PKDD 2018_) [[PDF]](https://link.springer.com/chapter/10.1007/978-3-030-14880-5_2)
+- Federated learning for ultra-reliable low-latency V2V communications(_GLOBECOM_) [[PDF]](https://arxiv.org/abs/1807.08127)
 
 
 ## Blog
