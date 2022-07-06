@@ -69,7 +69,7 @@ def generate_main():
             paper_meta.append({"title": title, "abbr": abbr, "year": year, "conf": conf, "links": links})
 
         if split_by_year:
-            for year in sorted(set([p["year"] for p in paper_meta])):
+            for year in sorted(set([p["year"] for p in paper_meta]), reverse=True):
                 year_papers = [p for p in paper_meta if p["year"] == year]
                 year_content = f"### {year}\n\n"
                 for paper in year_papers:
