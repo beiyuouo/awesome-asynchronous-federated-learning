@@ -1,0 +1,194 @@
+benchmark:
+  title: "Benchmark"
+  list:
+    - title: "Communication-Efficient Learning of Deep Networks from Decentralized Data"
+      abbr: FedAvg
+      year: 2016
+      conf: AISTAT
+      links:
+        PDF: https://arxiv.org/abs/1602.05629.pdf
+    - title: "Leaf: A benchmark for federated settings"
+      abbr: LEAF
+      yaer: 2018
+      conf: arXiv
+      links:
+        PDF: https://arxiv.org/abs/1812.01097
+        GitHub: https://github.com/TalwalkarLab/leaf/
+
+libraries:
+  title: Libraries(Which support Asynchronous Federated Learning)
+  list:
+    - title: "FedML: A Research Library and Benchmark for Federated Machine Learning"
+      abbr: FedML
+      year: 2020
+      conf: arXiv
+      links:
+        Home: https://fedml.ai/
+        PDF: https://arxiv.org/abs/2007.13518
+        GitHub: https://github.com/FedML-AI/FedML
+        Docs: https://doc.fedml.ai/
+    - title: "FedHF: 🔨 A Flexible Federated Learning Simulator."
+      abbr: FedHF
+      year: 2021
+      links:
+        GitHub: https://github.com/beiyuouo/fedhf
+    - title: "FederatedScope: A Flexible Federated Learning Platform for Heterogeneity"
+      abbr: FederatedScope
+      year: 2022
+      links:
+        Home: https://www.federatedscope.io/
+        GitHub: https://github.com/alibaba/FederatedScope
+        PDF: https://arxiv.org/pdf/2204.05011.pdf
+    - title: "PySyft: A Library for Easy Federated Learning"
+      abbr: PySyft
+      year: 2021
+      conf: Studies in Computational Intelligence
+      links:
+        GitHub: https://github.com/OpenMined/PySyft
+        PDF: https://link.springer.com/chapter/10.1007/978-3-030-70604-3_5
+    - title: "FedLab: A flexible Federated Learning Framework based on PyTorch, simplifying your Federated Learning research."
+      abbr: FedLab
+      year: 2021
+      links:
+        GitHub: https://github.com/SMILELab-FL/FedLab
+        Docs: https://fedlab.readthedocs.io/
+
+survey:
+  title: "Survey"
+  list:
+    - title: "Advances and Open Problems in Federated Learning"
+      abbr: "Open Problem"
+      year: 2019
+      conf: FnTML
+      links:
+        PDF: https://arxiv.org/abs/1912.04977
+    - title: "Asynchronous Federated Learning on Heterogeneous Devices: A Survey"
+      year: 2021
+      conf: arXiv
+      links:
+        PDF: https://arxiv.org/abs/2109.04269
+
+theory:
+  title: "Theory"
+  list:
+    - title: "On the Convergence of FedAvg on Non-IID Data"
+      abbr:
+      year: 2020
+      conf: ICLR 2020
+      links:
+        PDF: https://arxiv.org/abs/1907.02189
+        GitHub: https://github.com/lx10077/fedavgpy
+
+heterogeneous_network:
+  title: "Heterogeneous Network"
+  list:
+    - title: "Federated Optimization in Heterogeneous Networks"
+      abbr: FedProx
+      year: 2020
+      conf: MLSys 2020
+      links:
+        PDF: https://arxiv.org/abs/1812.06127
+        GitHub: https://github.com/litian96/FedProx
+
+tier_based:
+  title: "Tier-based"
+  list:
+    - title: "TiFL: A Tier-based Federated Learning System"
+      abbr: TiFL
+      year: HPDC
+      conf: HPDC 2020
+      links:
+        PDF: https://dl.acm.org/doi/abs/10.1145/3369583.3392686
+    - title: "FedAT: A High-Performance and Communication-Efficient Federated Learning System with Asynchronous Tiers"
+      abbr: "FedAT"
+      year: 2021
+      conf: arXiv
+      links:
+        PDF: https://arxiv.org/abs/2010.05958
+
+asynchronous:
+  title: "Asynchronous"
+  split_by_year: true
+  list:
+    - title: "FedSA: A staleness-aware asynchronous Federated Learning algorithm with non-IID data"
+      abbr: "FedSA"
+      year: 2021
+      conf: FGCS Elsevier
+      links:
+        PDF: https://www.sciencedirect.com/science/article/abs/pii/S0167739X2100064
+    - title: "SAFA: a Semi-Asynchronous Protocol for Fast Federated Learning with Low Overhead"
+      abbr: SAFA
+      year: 2021
+      conf: IEEE Transactions on Computers
+      links:
+        PDF: https://www.computer.org/csdl/journal/tc/2021/05/09093123/1jNu0qlnwSk
+    - title: "FedDR -- Randomized Douglas-Rachford Splitting Algorithms for Nonconvex Federated Composite Optimization"
+      abbr: FedDR
+      year: 2021
+      conf: ResearchGate
+      links:
+        PDF: https://www.researchgate.net/publication/349880146_FedDR_--_Randomized_Douglas-Rachford_Splitting_Algorithms_for_Nonconvex_Federated_Composite_Optimization?enrichId=rgreq-75be60e8182e96c4544e855110f94039-XXX&enrichSource=Y292ZXJQYWdlOzM0OTg4MDE0NjtBUzoxMDI2MDIwMjYyMDE5MDc4QDE2MjE2MzM3MDE0ODA%3D&el=1_x_2&_esc=publicationCoverPdf
+    - title: "Privacy-Preserving Asynchronous Vertical Federated Learning Algorithms for Multiparty Collaborative Learning"
+      abbr: "AFSGD-VP"
+      year: 2021
+      conf: TNNLS
+      links:
+        PDF: https://ieeexplore.ieee.org/abstract/document/9463409/
+    - title: "An Asynchronous Federated Learning Approach for a Security Source Code Scanner"
+      abbr: ""
+      year: 2021
+      conf: ICISSP 2021
+      links:
+        PDF: https://www.researchgate.net/publication/349402236_An_Asynchronous_Federated_Learning_Approach_for_a_Security_Source_Code_Scanner?enrichId=rgreq-91295cf9d6b78d8ff49812fae57abbf2-XXX&enrichSource=Y292ZXJQYWdlOzM0OTQwMjIzNjtBUzoxMDA2NjY1OTE4ODQwODM1QDE2MTcwMTkyNjY2MDQ%3D&el=1_x_2&_esc=publicationCoverPdf
+    - title: "Asynchronous Federated Learning for Sensor Data with Concept Drift"
+      abbr: "FedConD"
+      year: 2021
+      conf: arXiv
+      links:
+        PDF: https://arxiv.org/abs/2109.00151
+    - title: "Federated Learning with Buffered Asynchronous Aggregation"
+      abbr: "FedBuff"
+      year: 2021
+      conf: arXiv
+      links:
+        PDF: https://arxiv.org/abs/2106.06639
+    - title: "Adaptive Task Allocation for Asynchronous Federated and Parallelized Mobile Edge Learning"
+      abbr:
+      year: 2020
+      conf: arXiv
+      links:
+        PDF: https://arxiv.org/abs/1905.01656
+    - title: "Asynchronous Online Federated Learning for Edge Devices with Non-IID Data"
+      abbr: "ASO-Fed"
+      year: 2020
+      conf: Big Data 2020
+      links:
+        PDF: https://ieeexplore.ieee.org/abstract/document/9378161/
+    - title: "Asynchronous Federated Optimization"
+      abbr: "FedAsync"
+      year: 2019
+      conf: OPT 2020
+      links:
+        PDF: https://arxiv.org/abs/1903.03934
+    - title: "Differentially Private Asynchronous Federated Learning for Mobile Edge Computing in Urban Informatics"
+      abbr: DP-AFL
+      year: 2019
+      conf: TII
+      links:
+        PDF: https://ieeexplore.ieee.org/abstract/document/8843942
+    - title: "Asynchronous Federated Learning for Geospatial Applications"
+      abbr:
+      year: 2018
+      conf: ECML PKDD 2018
+      links:
+        PDF: https://link.springer.com/chapter/10.1007/978-3-030-14880-5_2
+    - title: "Federated learning for ultra-reliable low-latency V2V communications"
+      abbr:
+      year: 2018
+      conf: GLOBECOM
+      links:
+        PDF: https://arxiv.org/abs/1807.08127
+
+blog:
+  title: "Blog"
+  list:
