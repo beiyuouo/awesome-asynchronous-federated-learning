@@ -9,7 +9,6 @@ If you find some overlooked papers, please open issues or pull requests(recommen
 ## Benchmark
 
 - **[FedAvg]** Communication-Efficient Learning of Deep Networks from Decentralized Data(_AISTAT_) [[paper]](https://arxiv.org/abs/1602.05629.pdf)
-
 - **[LEAF]** Leaf: A benchmark for federated settings(_arXiv_) [[paper]](https://arxiv.org/abs/1812.01097) [[code]](https://github.com/TalwalkarLab/leaf/)
 
 ## Libraries(Which support Asynchronous Federated Learning)
