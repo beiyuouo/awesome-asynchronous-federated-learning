@@ -1,8 +1,6 @@
 import os
 import datetime
 import pytz
-
-pytz.timezone("Asia/Shanghai")
 import yaml
 import re
 
@@ -90,7 +88,8 @@ def generate_main():
 
 
 def update_time():
-    update_time_str = datetime.datetime.now().strftime("%b %d, %Y %H:%M:%S")
+    tz = pytz.timezone("Asia/Shanghai")
+    update_time_str = datetime.datetime.now(tz).strftime("%b %d, %Y %H:%M:%S")
     update_time_str = f"**Last Update: {update_time_str}**"
     print(update_time_str)
     write_content(update_time_str, UPDATE_TIME_START_COMMENT, UPDATE_TIME_END_COMMENT)
