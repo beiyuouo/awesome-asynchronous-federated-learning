@@ -10,15 +10,18 @@ If you find some overlooked papers, please open issues or pull requests(recommen
 
 <!-- update-time-start -->
 
-**Last Update: Jul 06, 2022 14:25:03**
+**Last Update: Jul 08, 2022 10:43:37**
 
 <!-- update-time-end -->
 
 <!-- main-start -->
 
-## Benchmark
+## Basic
 
 - **[FedAvg]** Communication-Efficient Learning of Deep Networks from Decentralized Data(_AISTAT_) [[PDF]](https://arxiv.org/abs/1602.05629.pdf)
+
+## Benchmarks
+
 - **[LEAF]** Leaf: A benchmark for federated settings(_arXiv_) [[PDF]](https://arxiv.org/abs/1812.01097) [[GitHub]](https://github.com/TalwalkarLab/leaf/)
 
 ## Libraries(Which support Asynchronous Federated Learning)
@@ -48,6 +51,10 @@ If you find some overlooked papers, please open issues or pull requests(recommen
 - **[FedAT]** FedAT: A High-Performance and Communication-Efficient Federated Learning System with Asynchronous Tiers(_arXiv_) [[PDF]](https://arxiv.org/abs/2010.05958)
 
 ## Asynchronous
+
+### 2022
+
+- **[AsyncFedED]** AsyncFedED: Asynchronous Federated Learning with Euclidean Distance based Adaptive Weight Aggregation(_arXiv_) [[PDF]](https://arxiv.org/abs/2205.13797)
 
 ### 2021
 
