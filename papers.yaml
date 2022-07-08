@@ -1,5 +1,5 @@
-benchmark:
-  title: "Benchmark"
+basic_federated_learning:
+  title: "Basic"
   list:
     - title: "Communication-Efficient Learning of Deep Networks from Decentralized Data"
       abbr: FedAvg
@@ -7,6 +7,10 @@ benchmark:
       conf: AISTAT
       links:
         PDF: https://arxiv.org/abs/1602.05629.pdf
+
+benchmarks:
+  title: "Benchmarks"
+  list:
     - title: "Leaf: A benchmark for federated settings"
       abbr: LEAF
       yaer: 2018
@@ -16,7 +20,7 @@ benchmark:
         GitHub: https://github.com/TalwalkarLab/leaf/
 
 libraries:
-  title: Libraries(Which support Asynchronous Federated Learning)
+  title: "Libraries(Which support Asynchronous Federated Learning)"
   list:
     - title: "FedML: A Research Library and Benchmark for Federated Machine Learning"
       abbr: FedML
@@ -194,6 +198,12 @@ asynchronous:
       conf: ICML 2020
       links:
         PDF: https://arxiv.org/abs/2109.04269
+    - title: "AsyncFedED: Asynchronous Federated Learning with Euclidean Distance based Adaptive Weight Aggregation"
+      abbr: "AsyncFedED"
+      year: 2022
+      conf: arXiv
+      links:
+        PDF: https://arxiv.org/abs/2205.13797
 
 blog:
   title: "Blog"
