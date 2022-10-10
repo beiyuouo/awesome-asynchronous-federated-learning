@@ -10,7 +10,7 @@ If you find some overlooked papers, please open issues or pull requests(recommen
 
 <!-- update-time-start -->
 
-**Last Update: Jul 08, 2022 10:43:37**
+**Last Update: Oct 10, 2022 12:48:00**
 
 <!-- update-time-end -->
 
@@ -41,16 +41,19 @@ If you find some overlooked papers, please open issues or pull requests(recommen
 
 - On the Convergence of FedAvg on Non-IID Data(_ICLR 2020_) [[PDF]](https://arxiv.org/abs/1907.02189) [[GitHub]](https://github.com/lx10077/fedavgpy)
 
-## Heterogeneous Network
+## Heterogeneous
 
 - **[FedProx]** Federated Optimization in Heterogeneous Networks(_MLSys 2020_) [[PDF]](https://arxiv.org/abs/1812.06127) [[GitHub]](https://github.com/litian96/FedProx)
+- **[FedBN]** FedBN: Federated Learning on Non-IID Features via Local Batch Normalization(_ICLR 2021_) [[PDF]](https://openreview.net/pdf?id=6YEQUn0QICG) [[GitHub]](https://github.com/med-air/FedBN)
 
-## Tier-based
+## Client Selection
+
+In progress...## Tier-based
 
 - **[TiFL]** TiFL: A Tier-based Federated Learning System(_HPDC 2020_) [[PDF]](https://dl.acm.org/doi/abs/10.1145/3369583.3392686)
 - **[FedAT]** FedAT: A High-Performance and Communication-Efficient Federated Learning System with Asynchronous Tiers(_arXiv_) [[PDF]](https://arxiv.org/abs/2010.05958)
 
-## Asynchronous
+## Fully Asynchronous
 
 ### 2022
 
@@ -83,7 +86,9 @@ If you find some overlooked papers, please open issues or pull requests(recommen
 - Federated learning for ultra-reliable low-latency V2V communications(_GLOBECOM_) [[PDF]](https://arxiv.org/abs/1807.08127)
 
 
-## Blog
+## Ungrouped Papers
+
+In progress...## Blog
 
 In progress...
 
