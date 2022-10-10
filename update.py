@@ -4,7 +4,7 @@ import pytz
 import yaml
 import re
 
-DEFAULT_CONTENT = """In progress..."""
+DEFAULT_CONTENT = """[WIP]\n\n"""
 
 UPDATE_TIME_START_COMMENT = "<!-- update-time-start -->"
 UPDATE_TIME_END_COMMENT = "<!-- update-time-end -->"
@@ -12,7 +12,9 @@ MAIN_START_COMMENT = "<!-- main-start -->"
 MAIN_END_COMMENT = "<!-- main-end -->"
 
 
-def get_markdown_url(title: str, abbr: str = None, conf: str = None, links: dict = None) -> str:
+def get_markdown_url(
+    title: str, abbr: str = None, conf: str = None, links: dict = None
+) -> str:
     """Get markdown url"""
     links_str = ""
     if links is not None:
@@ -23,12 +25,16 @@ def get_markdown_url(title: str, abbr: str = None, conf: str = None, links: dict
     return f"{abbr_str}{title}{conf_str}{links_str}"
 
 
-def generate_new_readme(src: str, content: str, start_comment: str, end_comment: str) -> str:
+def generate_new_readme(
+    src: str, content: str, start_comment: str, end_comment: str
+) -> str:
     """Generate a new Readme.md"""
     pattern = f"{start_comment}[\\s\\S]+{end_comment}"
     repl = f"{start_comment}\n\n{content}\n\n{end_comment}"
     if re.search(pattern, src) is None:
-        print(f"can not find section in src, please check it, it should be {start_comment} and {end_comment}")
+        print(
+            f"can not find section in src, please check it, it should be {start_comment} and {end_comment}"
+        )
     return re.sub(pattern, repl, src)
 
 
@@ -66,19 +72,31 @@ def generate_main():
             links = paper.get("links", None)
             if links is not None:
                 links = {k: v for k, v in links.items() if v is not None}
-            paper_meta.append({"title": title, "abbr": abbr, "year": year, "conf": conf, "links": links})
+            paper_meta.append(
+                {
+                    "title": title,
+                    "abbr": abbr,
+                    "year": year,
+                    "conf": conf,
+                    "links": links,
+                }
+            )
 
         if split_by_year:
             for year in sorted(set([p["year"] for p in paper_meta]), reverse=True):
                 year_papers = [p for p in paper_meta if p["year"] == year]
                 year_content = f"### {year}\n\n"
                 for paper in year_papers:
-                    paper_str = get_markdown_url(paper["title"], paper["abbr"], paper["conf"], paper["links"])
+                    paper_str = get_markdown_url(
+                        paper["title"], paper["abbr"], paper["conf"], paper["links"]
+                    )
                     year_content += f"- {paper_str}\n"
                 topic_content += year_content + "\n"
         else:
             for paper in paper_meta:
-                paper_str = get_markdown_url(paper["title"], paper["abbr"], paper["conf"], paper["links"])
+                paper_str = get_markdown_url(
+                    paper["title"], paper["abbr"], paper["conf"], paper["links"]
+                )
                 topic_content += f"- {paper_str}\n"
 
         content += topic_content + "\n"
