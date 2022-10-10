@@ -10,7 +10,7 @@ If you find some overlooked papers, please open issues or pull requests(recommen
 
 <!-- update-time-start -->
 
-**Last Update: Oct 10, 2022 12:48:00**
+**Last Update: Oct 10, 2022 12:53:04**
 
 <!-- update-time-end -->
 
@@ -48,7 +48,9 @@ If you find some overlooked papers, please open issues or pull requests(recommen
 
 ## Client Selection
 
-In progress...## Tier-based
+[WIP]
+
+## Tier-based
 
 - **[TiFL]** TiFL: A Tier-based Federated Learning System(_HPDC 2020_) [[PDF]](https://dl.acm.org/doi/abs/10.1145/3369583.3392686)
 - **[FedAT]** FedAT: A High-Performance and Communication-Efficient Federated Learning System with Asynchronous Tiers(_arXiv_) [[PDF]](https://arxiv.org/abs/2010.05958)
@@ -88,9 +90,13 @@ In progress...## Tier-based
 
 ## Ungrouped Papers
 
-In progress...## Blog
+[WIP]
 
-In progress...
+## Blog
+
+[WIP]
+
+
 
 <!-- main-end -->
 
