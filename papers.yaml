@@ -218,6 +218,7 @@ fully_asynchronous:
 
 ungrouped:
   title: "Ungrouped Papers"
+  list:
 
 blog:
   title: "Blog"
