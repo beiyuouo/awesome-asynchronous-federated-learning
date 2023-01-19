@@ -10,7 +10,7 @@ If you find some overlooked papers, please open issues or pull requests(recommen
 
 <!-- update-time-start -->
 
-**Last Update: Oct 10, 2022 12:53:04**
+**Last Update: Jan 19, 2023 20:20:30**
 
 <!-- update-time-end -->
 
@@ -45,6 +45,7 @@ If you find some overlooked papers, please open issues or pull requests(recommen
 
 - **[FedProx]** Federated Optimization in Heterogeneous Networks(_MLSys 2020_) [[PDF]](https://arxiv.org/abs/1812.06127) [[GitHub]](https://github.com/litian96/FedProx)
 - **[FedBN]** FedBN: Federated Learning on Non-IID Features via Local Batch Normalization(_ICLR 2021_) [[PDF]](https://openreview.net/pdf?id=6YEQUn0QICG) [[GitHub]](https://github.com/med-air/FedBN)
+- **[Pisces]** Pisces: Efficient Federated Learning via Guided Asynchronous Training(_ACM SoCC 2022_) [[PDF]](https://dl.acm.org/doi/abs/10.1145/3542929.3563463) [[GitHub]](https://github.com/SamuelGong/Pisces)
 
 ## Client Selection
 
