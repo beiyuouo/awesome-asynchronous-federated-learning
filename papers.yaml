@@ -100,6 +100,13 @@ heterogeneous:
       links:
         PDF: https://openreview.net/pdf?id=6YEQUn0QICG
         GitHub: https://github.com/med-air/FedBN
+    - title: "Pisces: Efficient Federated Learning via Guided Asynchronous Training"
+      abbr: Pisces
+      year: 2022
+      conf: ACM SoCC 2022
+      links:
+        PDF: https://dl.acm.org/doi/abs/10.1145/3542929.3563463
+        GitHub: https://github.com/SamuelGong/Pisces
 
 client_selection:
   title: "Client Selection"
