@@ -10,7 +10,7 @@ If you find some overlooked papers, please open issues or pull requests(recommen
 
 <!-- update-time-start -->
 
-**Last Update: Jul 09, 2023 17:21:16**
+**Last Update: Jul 09, 2023 18:37:41**
 
 <!-- update-time-end -->
 
@@ -87,6 +87,10 @@ If you find some overlooked papers, please open issues or pull requests(recommen
 
 
 ## Vertical Asynchronous Federated Learning
+
+### 2021
+
+- **[AFSGD-VP]** Privacy-Preserving Asynchronous Vertical Federated Learning Algorithms for Multiparty Collaborative Learning (_TNNLS_) [[PDF]](https://ieeexplore.ieee.org/abstract/document/9463409)
 
 ### 2020
 
