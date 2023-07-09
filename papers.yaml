@@ -71,6 +71,7 @@ fully_asynchronous:
       conf: OPT
       links:
         PDF: https://arxiv.org/abs/1903.03934
+        Code: "https://github.com/xcgoner/async_fl"
 
     - title: "Differentially Private Asynchronous Federated Learning for Mobile Edge Computing in Urban Informatics"
       abbr: DP-AFL
@@ -99,13 +100,6 @@ fully_asynchronous:
       conf: arXiv
       links:
         PDF: https://arxiv.org/abs/2205.13797
-
-    - title: "Asynchronous Federated Learning for Sensor Data with Concept Drift"
-      abbr: "FedConD"
-      year: 2021
-      conf: arXiv
-      links:
-        PDF: https://arxiv.org/abs/2109.00151
 
     # - title: "Communication-Efficient Federated Deep Learning With Layerwise Asynchronous Model Update and Temporally Weighted Aggregation"
     #   abbr: TWAFL

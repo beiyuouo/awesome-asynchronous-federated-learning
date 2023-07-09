@@ -22,7 +22,7 @@ def get_markdown_url(
             links_str += f" [[{link_item}]]({links[link_item]})"
     abbr_str = "" if abbr is None or abbr == "" else f"**[{abbr}]** "
     conf_str = "" if conf is None else f"(_{conf}_)"
-    return f"{abbr_str}{title}{conf_str}{links_str}"
+    return f"{abbr_str}{title} {conf_str}{links_str}"
 
 
 def generate_new_readme(
