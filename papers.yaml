@@ -33,7 +33,7 @@ fully_asynchronous:
     - title: "An Asynchronous Federated Learning Approach for a Security Source Code Scanner"
       abbr: ""
       year: 2021
-      conf: ICISSP 2021
+      conf: ICISSP
       links:
         PDF: https://www.researchgate.net/publication/349402236_An_Asynchronous_Federated_Learning_Approach_for_a_Security_Source_Code_Scanner?enrichId=rgreq-91295cf9d6b78d8ff49812fae57abbf2-XXX&enrichSource=Y292ZXJQYWdlOzM0OTQwMjIzNjtBUzoxMDA2NjY1OTE4ODQwODM1QDE2MTcwMTkyNjY2MDQ%3D&el=1_x_2&_esc=publicationCoverPdf
 
@@ -61,14 +61,14 @@ fully_asynchronous:
     - title: "Asynchronous Online Federated Learning for Edge Devices with Non-IID Data"
       abbr: "ASO-Fed"
       year: 2020
-      conf: Big Data 2020
+      conf: Big Data
       links:
         PDF: https://ieeexplore.ieee.org/abstract/document/9378161/
 
     - title: "Asynchronous Federated Optimization"
       abbr: "FedAsync"
       year: 2019
-      conf: OPT 2020
+      conf: OPT
       links:
         PDF: https://arxiv.org/abs/1903.03934
 
@@ -82,7 +82,7 @@ fully_asynchronous:
     - title: "Asynchronous Federated Learning for Geospatial Applications"
       abbr:
       year: 2018
-      conf: ECML PKDD 2018
+      conf: ECML PKDD
       links:
         PDF: https://link.springer.com/chapter/10.1007/978-3-030-14880-5_2
 
@@ -191,6 +191,18 @@ heterogeneous_model:
       conf: arXiv
       links:
         PDF: https://arxiv.org/abs/2305.13503
+
+continual_learning:
+  title: "Continual Learning"
+  split_by_year: true
+  list:
+    - title: "Asynchronous Federated Continual Learning"
+      abbr: "AFCL"
+      year: 2023
+      conf: CVPR FedVision Workshop
+      links:
+        PDF: https://arxiv.org/abs/2304.03626
+        Code: https://github.com/LTTM/FedSpace
 
 # heterogeneous_data:
 #   title: "Data Heterogeneous"
