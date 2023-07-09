@@ -1,5 +1,221 @@
-basic_federated_learning:
-  title: "Basic"
+fully_asynchronous:
+  title: "Fully Asynchronous"
+  split_by_year: true
+  list:
+    - title: "FedSA: A staleness-aware asynchronous Federated Learning algorithm with non-IID data"
+      abbr: "FedSA"
+      year: 2021
+      conf: FGCS Elsevier
+      links:
+        PDF: https://www.sciencedirect.com/science/article/abs/pii/S0167739X2100064
+
+    - title: "SAFA: a Semi-Asynchronous Protocol for Fast Federated Learning with Low Overhead"
+      abbr: SAFA
+      year: 2021
+      conf: IEEE Transactions on Computers
+      links:
+        PDF: https://www.computer.org/csdl/journal/tc/2021/05/09093123/1jNu0qlnwSk
+
+    - title: "FedDR -- Randomized Douglas-Rachford Splitting Algorithms for Nonconvex Federated Composite Optimization"
+      abbr: FedDR
+      year: 2021
+      conf: ResearchGate
+      links:
+        PDF: https://www.researchgate.net/publication/349880146_FedDR_--_Randomized_Douglas-Rachford_Splitting_Algorithms_for_Nonconvex_Federated_Composite_Optimization?enrichId=rgreq-75be60e8182e96c4544e855110f94039-XXX&enrichSource=Y292ZXJQYWdlOzM0OTg4MDE0NjtBUzoxMDI2MDIwMjYyMDE5MDc4QDE2MjE2MzM3MDE0ODA%3D&el=1_x_2&_esc=publicationCoverPdf
+
+    - title: "Privacy-Preserving Asynchronous Vertical Federated Learning Algorithms for Multiparty Collaborative Learning"
+      abbr: "AFSGD-VP"
+      year: 2021
+      conf: TNNLS
+      links:
+        PDF: https://ieeexplore.ieee.org/abstract/document/9463409/
+
+    - title: "An Asynchronous Federated Learning Approach for a Security Source Code Scanner"
+      abbr: ""
+      year: 2021
+      conf: ICISSP 2021
+      links:
+        PDF: https://www.researchgate.net/publication/349402236_An_Asynchronous_Federated_Learning_Approach_for_a_Security_Source_Code_Scanner?enrichId=rgreq-91295cf9d6b78d8ff49812fae57abbf2-XXX&enrichSource=Y292ZXJQYWdlOzM0OTQwMjIzNjtBUzoxMDA2NjY1OTE4ODQwODM1QDE2MTcwMTkyNjY2MDQ%3D&el=1_x_2&_esc=publicationCoverPdf
+
+    - title: "Asynchronous Federated Learning for Sensor Data with Concept Drift"
+      abbr: "FedConD"
+      year: 2021
+      conf: arXiv
+      links:
+        PDF: https://arxiv.org/abs/2109.00151
+
+    - title: "Federated Learning with Buffered Asynchronous Aggregation"
+      abbr: "FedBuff"
+      year: 2021
+      conf: arXiv
+      links:
+        PDF: https://arxiv.org/abs/2106.06639
+
+    - title: "Adaptive Task Allocation for Asynchronous Federated and Parallelized Mobile Edge Learning"
+      abbr:
+      year: 2020
+      conf: arXiv
+      links:
+        PDF: https://arxiv.org/abs/1905.01656
+
+    - title: "Asynchronous Online Federated Learning for Edge Devices with Non-IID Data"
+      abbr: "ASO-Fed"
+      year: 2020
+      conf: Big Data 2020
+      links:
+        PDF: https://ieeexplore.ieee.org/abstract/document/9378161/
+
+    - title: "Asynchronous Federated Optimization"
+      abbr: "FedAsync"
+      year: 2019
+      conf: OPT 2020
+      links:
+        PDF: https://arxiv.org/abs/1903.03934
+
+    - title: "Differentially Private Asynchronous Federated Learning for Mobile Edge Computing in Urban Informatics"
+      abbr: DP-AFL
+      year: 2019
+      conf: TII
+      links:
+        PDF: https://ieeexplore.ieee.org/abstract/document/8843942
+
+    - title: "Asynchronous Federated Learning for Geospatial Applications"
+      abbr:
+      year: 2018
+      conf: ECML PKDD 2018
+      links:
+        PDF: https://link.springer.com/chapter/10.1007/978-3-030-14880-5_2
+
+    - title: "Federated learning for ultra-reliable low-latency V2V communications"
+      abbr:
+      year: 2018
+      conf: GLOBECOM
+      links:
+        PDF: https://arxiv.org/abs/1807.08127
+
+    - title: "AsyncFedED: Asynchronous Federated Learning with Euclidean Distance based Adaptive Weight Aggregation"
+      abbr: "AsyncFedED"
+      year: 2022
+      conf: arXiv
+      links:
+        PDF: https://arxiv.org/abs/2205.13797
+
+    - title: "Asynchronous Federated Learning for Sensor Data with Concept Drift"
+      abbr: "FedConD"
+      year: 2021
+      conf: arXiv
+      links:
+        PDF: https://arxiv.org/abs/2109.00151
+
+    # - title: "Communication-Efficient Federated Deep Learning With Layerwise Asynchronous Model Update and Temporally Weighted Aggregation"
+    #   abbr: TWAFL
+    #   year: 2019
+    #   conf: TNNLS
+    #   links:
+    #     PDF: https://ieeexplore.ieee.org/abstract/document/8945292
+
+hierarchical:
+  title: "Hierarchical or Tier-based"
+  split_by_year: true
+  list:
+    - title: "TimelyFL: Heterogeneity-Aware Asynchronous Federated Learning With Adaptive Partial Training"
+      abbr: TimelyFL
+      year: 2023
+      conf: CVPR
+      links:
+        PDF: https://openaccess.thecvf.com/content/CVPR2023W/FedVision/html/Zhang_TimelyFL_Heterogeneity-Aware_Asynchronous_Federated_Learning_With_Adaptive_Partial_Training_CVPRW_2023_paper.html
+
+    - title: "Stragglers Are Not Disaster: A Hybrid Federated Learning Algorithm with Delayed Gradients"
+      abbr:
+      year: 2021
+      conf: arXiv
+      links:
+        PDF: https://arxiv.org/abs/2102.06329
+
+    - title: "Timely Asynchronous Hierarchical Federated Learning: Age of Convergence"
+      abbr: AHFL
+      year: 2023
+      conf: arXiv
+      links:
+        PDF: https://arxiv.org/abs/2306.12400
+
+    - title: "Client-Edge-Cloud Hierarchical Federated Learning"
+      abbr:
+      year: 2022
+      conf: IEEE/ACM SEC
+      links:
+        PDF: https://ieeexplore.ieee.org/abstract/document/9996746
+
+    - title: "Time Minimization in Hierarchical Federated Learning"
+      abbr:
+      year: 2021
+      conf: arXiv
+      links:
+        PDF: https://arxiv.org/abs/2106.06639
+
+    - title: "HiFlash: Communication-Efficient Hierarchical Federated Learning With Adaptive Staleness Control and Heterogeneity-Aware Client-Edge Association"
+      abbr: HiFlash
+      year: 2023
+      conf: T-PDS
+      links:
+        PDF: https://ieeexplore.ieee.org/abstract/document/10021868
+
+    - title: "Hierarchical Federated Learning With Quantization: Convergence Analysis and System Design"
+      abbr:
+      year: 2022
+      conf: IEEE TWC
+      links:
+        PDF: https://ieeexplore.ieee.org/abstract/document/9834296
+
+    - title: "TiFL: A Tier-based Federated Learning System"
+      abbr: TiFL
+      year: 2020
+      conf: HPDC
+      links:
+        PDF: https://dl.acm.org/doi/abs/10.1145/3369583.3392686
+
+    - title: "FedAT: A High-Performance and Communication-Efficient Federated Learning System with Asynchronous Tiers"
+      abbr: "FedAT"
+      year: 2021
+      conf: arXiv
+      links:
+        PDF: https://arxiv.org/abs/2010.05958
+
+heterogeneous_model:
+  title: "Model Heterogeneous"
+  split_by_year: true
+  list:
+    - title: "Asynchronous Multi-Model Federated Learning over Wireless Networks: Theory, Modeling, and Optimization"
+      abbr: "MA-FL"
+      year: 2023
+      conf: arXiv
+      links:
+        PDF: https://arxiv.org/abs/2305.13503
+
+# heterogeneous_data:
+#   title: "Data Heterogeneous"
+#   split_by_year: true
+#   list:
+#     - title: "Asynchronous Federated Learning for Sensor Data with Concept Drift"
+#       abbr: "FedConD"
+#       year: 2021
+#       conf: arXiv
+#       links:
+#         PDF: https://arxiv.org/abs/2109.00151
+
+vertical:
+  title: "Vertical Asynchronous Federated Learning"
+  split_by_year: true
+  list:
+    - title: "VAFL: a Method of Vertical Asynchronous Federated Learning"
+      abbr: "VAFL"
+      year: 2020
+      conf: ICML 2020
+      links:
+        PDF: https://arxiv.org/abs/2109.04269
+
+general_federated_learning:
+  title: "General Federated Learning"
   list:
     - title: "Communication-Efficient Learning of Deep Networks from Decentralized Data"
       abbr: FedAvg
@@ -13,7 +229,7 @@ benchmarks:
   list:
     - title: "Leaf: A benchmark for federated settings"
       abbr: LEAF
-      yaer: 2018
+      year: 2018
       conf: arXiv
       links:
         PDF: https://arxiv.org/abs/1812.01097
@@ -111,117 +327,6 @@ heterogeneous:
 client_selection:
   title: "Client Selection"
   list:
-
-tier_based:
-  title: "Tier-based"
-  list:
-    - title: "TiFL: A Tier-based Federated Learning System"
-      abbr: TiFL
-      year: HPDC
-      conf: HPDC 2020
-      links:
-        PDF: https://dl.acm.org/doi/abs/10.1145/3369583.3392686
-    - title: "FedAT: A High-Performance and Communication-Efficient Federated Learning System with Asynchronous Tiers"
-      abbr: "FedAT"
-      year: 2021
-      conf: arXiv
-      links:
-        PDF: https://arxiv.org/abs/2010.05958
-
-fully_asynchronous:
-  title: "Fully Asynchronous"
-  split_by_year: true
-  list:
-    - title: "FedSA: A staleness-aware asynchronous Federated Learning algorithm with non-IID data"
-      abbr: "FedSA"
-      year: 2021
-      conf: FGCS Elsevier
-      links:
-        PDF: https://www.sciencedirect.com/science/article/abs/pii/S0167739X2100064
-    - title: "SAFA: a Semi-Asynchronous Protocol for Fast Federated Learning with Low Overhead"
-      abbr: SAFA
-      year: 2021
-      conf: IEEE Transactions on Computers
-      links:
-        PDF: https://www.computer.org/csdl/journal/tc/2021/05/09093123/1jNu0qlnwSk
-    - title: "FedDR -- Randomized Douglas-Rachford Splitting Algorithms for Nonconvex Federated Composite Optimization"
-      abbr: FedDR
-      year: 2021
-      conf: ResearchGate
-      links:
-        PDF: https://www.researchgate.net/publication/349880146_FedDR_--_Randomized_Douglas-Rachford_Splitting_Algorithms_for_Nonconvex_Federated_Composite_Optimization?enrichId=rgreq-75be60e8182e96c4544e855110f94039-XXX&enrichSource=Y292ZXJQYWdlOzM0OTg4MDE0NjtBUzoxMDI2MDIwMjYyMDE5MDc4QDE2MjE2MzM3MDE0ODA%3D&el=1_x_2&_esc=publicationCoverPdf
-    - title: "Privacy-Preserving Asynchronous Vertical Federated Learning Algorithms for Multiparty Collaborative Learning"
-      abbr: "AFSGD-VP"
-      year: 2021
-      conf: TNNLS
-      links:
-        PDF: https://ieeexplore.ieee.org/abstract/document/9463409/
-    - title: "An Asynchronous Federated Learning Approach for a Security Source Code Scanner"
-      abbr: ""
-      year: 2021
-      conf: ICISSP 2021
-      links:
-        PDF: https://www.researchgate.net/publication/349402236_An_Asynchronous_Federated_Learning_Approach_for_a_Security_Source_Code_Scanner?enrichId=rgreq-91295cf9d6b78d8ff49812fae57abbf2-XXX&enrichSource=Y292ZXJQYWdlOzM0OTQwMjIzNjtBUzoxMDA2NjY1OTE4ODQwODM1QDE2MTcwMTkyNjY2MDQ%3D&el=1_x_2&_esc=publicationCoverPdf
-    - title: "Asynchronous Federated Learning for Sensor Data with Concept Drift"
-      abbr: "FedConD"
-      year: 2021
-      conf: arXiv
-      links:
-        PDF: https://arxiv.org/abs/2109.00151
-    - title: "Federated Learning with Buffered Asynchronous Aggregation"
-      abbr: "FedBuff"
-      year: 2021
-      conf: arXiv
-      links:
-        PDF: https://arxiv.org/abs/2106.06639
-    - title: "Adaptive Task Allocation for Asynchronous Federated and Parallelized Mobile Edge Learning"
-      abbr:
-      year: 2020
-      conf: arXiv
-      links:
-        PDF: https://arxiv.org/abs/1905.01656
-    - title: "Asynchronous Online Federated Learning for Edge Devices with Non-IID Data"
-      abbr: "ASO-Fed"
-      year: 2020
-      conf: Big Data 2020
-      links:
-        PDF: https://ieeexplore.ieee.org/abstract/document/9378161/
-    - title: "Asynchronous Federated Optimization"
-      abbr: "FedAsync"
-      year: 2019
-      conf: OPT 2020
-      links:
-        PDF: https://arxiv.org/abs/1903.03934
-    - title: "Differentially Private Asynchronous Federated Learning for Mobile Edge Computing in Urban Informatics"
-      abbr: DP-AFL
-      year: 2019
-      conf: TII
-      links:
-        PDF: https://ieeexplore.ieee.org/abstract/document/8843942
-    - title: "Asynchronous Federated Learning for Geospatial Applications"
-      abbr:
-      year: 2018
-      conf: ECML PKDD 2018
-      links:
-        PDF: https://link.springer.com/chapter/10.1007/978-3-030-14880-5_2
-    - title: "Federated learning for ultra-reliable low-latency V2V communications"
-      abbr:
-      year: 2018
-      conf: GLOBECOM
-      links:
-        PDF: https://arxiv.org/abs/1807.08127
-    - title: "VAFL: a Method of Vertical Asynchronous Federated Learning"
-      abbr: "VAFL"
-      year: 2020
-      conf: ICML 2020
-      links:
-        PDF: https://arxiv.org/abs/2109.04269
-    - title: "AsyncFedED: Asynchronous Federated Learning with Euclidean Distance based Adaptive Weight Aggregation"
-      abbr: "AsyncFedED"
-      year: 2022
-      conf: arXiv
-      links:
-        PDF: https://arxiv.org/abs/2205.13797
 
 ungrouped:
   title: "Ungrouped Papers"
