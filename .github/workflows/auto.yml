@@ -25,7 +25,12 @@ jobs:
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then python -m pip install -r requirements.txt; fi
 
-      - name: "Pre-Commit"
-        uses: pre-commit/action@v3.0.0
-        with:
-          extra_args: python update.py
+      - name: Update dir
+        run: python update.py
+
+      - name: Commit Updated
+        uses: stefanzweifel/git-auto-commit-action@v4
+
+  call_page_build:
+    uses: ./.github/workflows/jekyll-gh-pages.yml
+    needs: build
