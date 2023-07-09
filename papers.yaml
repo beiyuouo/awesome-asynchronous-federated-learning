@@ -220,6 +220,13 @@ vertical:
       links:
         PDF: https://arxiv.org/abs/2109.04269
 
+    - title: "Privacy-Preserving Asynchronous Vertical Federated Learning Algorithms for Multiparty Collaborative Learning"
+      abbr: "AFSGD-VP"
+      year: 2021
+      conf: TNNLS
+      links:
+        PDF: https://ieeexplore.ieee.org/abstract/document/9463409
+
 general_federated_learning:
   title: "General Federated Learning"
   list:
