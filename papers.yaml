@@ -44,13 +44,6 @@ fully_asynchronous:
       links:
         PDF: https://arxiv.org/abs/2109.00151
 
-    - title: "Federated Learning with Buffered Asynchronous Aggregation"
-      abbr: "FedBuff"
-      year: 2021
-      conf: arXiv
-      links:
-        PDF: https://arxiv.org/abs/2106.06639
-
     - title: "Adaptive Task Allocation for Asynchronous Federated and Parallelized Mobile Edge Learning"
       abbr:
       year: 2020
@@ -173,7 +166,21 @@ hierarchical:
       year: 2021
       conf: arXiv
       links:
-        PDF: https://arxiv.org/abs/2010.05958
+        PDF: https://arxiv.org/abs/2010.05958\
+
+    - title: "Federated Learning with Buffered Asynchronous Aggregation"
+      abbr: "FedBuff"
+      year: 2022
+      conf: AISTATS
+      links:
+        PDF: https://arxiv.org/abs/2106.06639
+
+    - title: Scheduling and Aggregation Design for Asynchronous Federated Learning Over Wireless Networks
+      abbr:
+      year: 2023
+      conf: IEEE JSAC
+      links:
+        PDF: https://ieeexplore.ieee.org/abstract/document/10041216
 
 heterogeneous_model:
   title: "Model Heterogeneous"
@@ -233,7 +240,7 @@ general_federated_learning:
     - title: "Communication-Efficient Learning of Deep Networks from Decentralized Data"
       abbr: FedAvg
       year: 2016
-      conf: AISTAT
+      conf: AISTATS
       links:
         PDF: https://arxiv.org/abs/1602.05629.pdf
 
