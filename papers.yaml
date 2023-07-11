@@ -94,12 +94,12 @@ fully_asynchronous:
       links:
         PDF: https://arxiv.org/abs/2205.13797
 
-    # - title: "Communication-Efficient Federated Deep Learning With Layerwise Asynchronous Model Update and Temporally Weighted Aggregation"
-    #   abbr: TWAFL
-    #   year: 2019
-    #   conf: TNNLS
-    #   links:
-    #     PDF: https://ieeexplore.ieee.org/abstract/document/8945292
+    - title: "Communication-Efficient Federated Deep Learning With Layerwise Asynchronous Model Update and Temporally Weighted Aggregation"
+      abbr: TWAFL
+      year: 2019
+      conf: TNNLS
+      links:
+        PDF: https://ieeexplore.ieee.org/abstract/document/8945292
 
 hierarchical:
   title: "Hierarchical or Tier-based"
