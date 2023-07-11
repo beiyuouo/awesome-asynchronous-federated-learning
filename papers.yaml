@@ -193,6 +193,24 @@ heterogeneous_model:
       links:
         PDF: https://arxiv.org/abs/2305.13503
 
+fairness:
+  title: "Fairness"
+  split_by_year: true
+  list:
+    - title: "Client Selection for Asynchronous Federated Learning with Fairness Consideration"
+      abbr:
+      year: 2022
+      conf: ICC Workshop
+      links:
+        PDF: https://ieeexplore.ieee.org/abstract/document/9814669
+
+    - title: "Online Client Selection for Asynchronous Federated Learning With Fairness Consideration"
+      abbr:
+      year: 2022
+      conf: IEEE TWC
+      links:
+        PDF: https://ieeexplore.ieee.org/abstract/document/9916164
+
 continual_learning:
   title: "Continual Learning"
   split_by_year: true
