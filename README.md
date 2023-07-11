@@ -10,7 +10,7 @@ If you find some overlooked papers, please open issues or pull requests(recommen
 
 <!-- update-time-start -->
 
-**Last Update: Jul 11, 2023 12:12:34**
+**Last Update: Jul 11, 2023 12:22:45**
 
 <!-- update-time-end -->
 
@@ -40,6 +40,7 @@ If you find some overlooked papers, please open issues or pull requests(recommen
 
 - **[FedAsync]** Asynchronous Federated Optimization (_OPT_) [[PDF]](https://arxiv.org/abs/1903.03934) [[Code]](https://github.com/xcgoner/async_fl)
 - **[DP-AFL]** Differentially Private Asynchronous Federated Learning for Mobile Edge Computing in Urban Informatics (_TII_) [[PDF]](https://ieeexplore.ieee.org/abstract/document/8843942)
+- **[TWAFL]** Communication-Efficient Federated Deep Learning With Layerwise Asynchronous Model Update and Temporally Weighted Aggregation (_TNNLS_) [[PDF]](https://ieeexplore.ieee.org/abstract/document/8945292)
 
 ### 2018
 
