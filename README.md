@@ -10,7 +10,7 @@ If you find some overlooked papers, please open issues or pull requests(recommen
 
 <!-- update-time-start -->
 
-**Last Update: Jul 09, 2023 18:37:41**
+**Last Update: Jul 11, 2023 12:12:34**
 
 <!-- update-time-end -->
 
@@ -30,7 +30,6 @@ If you find some overlooked papers, please open issues or pull requests(recommen
 - **[AFSGD-VP]** Privacy-Preserving Asynchronous Vertical Federated Learning Algorithms for Multiparty Collaborative Learning (_TNNLS_) [[PDF]](https://ieeexplore.ieee.org/abstract/document/9463409/)
 - An Asynchronous Federated Learning Approach for a Security Source Code Scanner (_ICISSP_) [[PDF]](https://www.researchgate.net/publication/349402236_An_Asynchronous_Federated_Learning_Approach_for_a_Security_Source_Code_Scanner?enrichId=rgreq-91295cf9d6b78d8ff49812fae57abbf2-XXX&enrichSource=Y292ZXJQYWdlOzM0OTQwMjIzNjtBUzoxMDA2NjY1OTE4ODQwODM1QDE2MTcwMTkyNjY2MDQ%3D&el=1_x_2&_esc=publicationCoverPdf)
 - **[FedConD]** Asynchronous Federated Learning for Sensor Data with Concept Drift (_arXiv_) [[PDF]](https://arxiv.org/abs/2109.00151)
-- **[FedBuff]** Federated Learning with Buffered Asynchronous Aggregation (_arXiv_) [[PDF]](https://arxiv.org/abs/2106.06639)
 
 ### 2020
 
@@ -55,17 +54,19 @@ If you find some overlooked papers, please open issues or pull requests(recommen
 - **[TimelyFL]** TimelyFL: Heterogeneity-Aware Asynchronous Federated Learning With Adaptive Partial Training (_CVPR_) [[PDF]](https://openaccess.thecvf.com/content/CVPR2023W/FedVision/html/Zhang_TimelyFL_Heterogeneity-Aware_Asynchronous_Federated_Learning_With_Adaptive_Partial_Training_CVPRW_2023_paper.html)
 - **[AHFL]** Timely Asynchronous Hierarchical Federated Learning: Age of Convergence (_arXiv_) [[PDF]](https://arxiv.org/abs/2306.12400)
 - **[HiFlash]** HiFlash: Communication-Efficient Hierarchical Federated Learning With Adaptive Staleness Control and Heterogeneity-Aware Client-Edge Association (_T-PDS_) [[PDF]](https://ieeexplore.ieee.org/abstract/document/10021868)
+- Scheduling and Aggregation Design for Asynchronous Federated Learning Over Wireless Networks (_IEEE JSAC_) [[PDF]](https://ieeexplore.ieee.org/abstract/document/10041216)
 
 ### 2022
 
 - Client-Edge-Cloud Hierarchical Federated Learning (_IEEE/ACM SEC_) [[PDF]](https://ieeexplore.ieee.org/abstract/document/9996746)
 - Hierarchical Federated Learning With Quantization: Convergence Analysis and System Design (_IEEE TWC_) [[PDF]](https://ieeexplore.ieee.org/abstract/document/9834296)
+- **[FedBuff]** Federated Learning with Buffered Asynchronous Aggregation (_AISTATS_) [[PDF]](https://arxiv.org/abs/2106.06639)
 
 ### 2021
 
 - Stragglers Are Not Disaster: A Hybrid Federated Learning Algorithm with Delayed Gradients (_arXiv_) [[PDF]](https://arxiv.org/abs/2102.06329)
 - Time Minimization in Hierarchical Federated Learning (_arXiv_) [[PDF]](https://arxiv.org/abs/2106.06639)
-- **[FedAT]** FedAT: A High-Performance and Communication-Efficient Federated Learning System with Asynchronous Tiers (_arXiv_) [[PDF]](https://arxiv.org/abs/2010.05958)
+- **[FedAT]** FedAT: A High-Performance and Communication-Efficient Federated Learning System with Asynchronous Tiers (_arXiv_) [[PDF]](https://arxiv.org/abs/2010.05958\)
 
 ### 2020
 
@@ -99,7 +100,7 @@ If you find some overlooked papers, please open issues or pull requests(recommen
 
 ## General Federated Learning
 
-- **[FedAvg]** Communication-Efficient Learning of Deep Networks from Decentralized Data (_AISTAT_) [[PDF]](https://arxiv.org/abs/1602.05629.pdf)
+- **[FedAvg]** Communication-Efficient Learning of Deep Networks from Decentralized Data (_AISTATS_) [[PDF]](https://arxiv.org/abs/1602.05629.pdf)
 
 ## Benchmarks
 
