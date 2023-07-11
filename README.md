@@ -10,7 +10,7 @@ If you find some overlooked papers, please open issues or pull requests(recommen
 
 <!-- update-time-start -->
 
-**Last Update: Jul 11, 2023 12:22:45**
+**Last Update: Jul 11, 2023 21:09:01**
 
 <!-- update-time-end -->
 
@@ -79,6 +79,14 @@ If you find some overlooked papers, please open issues or pull requests(recommen
 ### 2023
 
 - **[MA-FL]** Asynchronous Multi-Model Federated Learning over Wireless Networks: Theory, Modeling, and Optimization (_arXiv_) [[PDF]](https://arxiv.org/abs/2305.13503)
+
+
+## Fairness
+
+### 2022
+
+- Client Selection for Asynchronous Federated Learning with Fairness Consideration (_ICC Workshop_) [[PDF]](https://ieeexplore.ieee.org/abstract/document/9814669)
+- Online Client Selection for Asynchronous Federated Learning With Fairness Consideration (_IEEE TWC_) [[PDF]](https://ieeexplore.ieee.org/abstract/document/9916164)
 
 
 ## Continual Learning
