@@ -10,7 +10,7 @@ If you find some overlooked papers, please open issues or pull requests(recommen
 
 <!-- update-time-start -->
 
-**Last Update: Jan 11, 2024 11:33:01**
+**Last Update: Jan 11, 2024 12:45:53**
 
 <!-- update-time-end -->
 
@@ -64,6 +64,7 @@ If you find some overlooked papers, please open issues or pull requests(recommen
 ### 2021
 
 - **[AFSGD-VP]** Privacy-Preserving Asynchronous Vertical Federated Learning Algorithms for Multiparty Collaborative Learning (_TNNLS_) [[PDF]](https://ieeexplore.ieee.org/abstract/document/9463409)
+- **[BASecAgg]** Secure Aggregation for Buffered Asynchronous Federated Learning (_arXiv_) [[PDF]](https://arxiv.org/abs/2110.02177)
 
 
 ## Hierarchical or Tier-based
@@ -106,7 +107,7 @@ If you find some overlooked papers, please open issues or pull requests(recommen
 - Online Client Selection for Asynchronous Federated Learning With Fairness Consideration (_IEEE TWC_) [[PDF]](https://ieeexplore.ieee.org/abstract/document/9916164)
 
 
-## Continual Learning
+## Asynchronous Federated Increment Learning
 
 ### 2023
 
@@ -118,13 +119,6 @@ If you find some overlooked papers, please open issues or pull requests(recommen
 ### 2021
 
 - **[AFSGD-VP]** Privacy-Preserving Asynchronous Vertical Federated Learning Algorithms for Multiparty Collaborative Learning (_TNNLS_) [[PDF]](https://ieeexplore.ieee.org/abstract/document/9463409)
-
-### 2020
-
-- **[VAFL]** VAFL: a Method of Vertical Asynchronous Federated Learning (_ICML 2020_) [[PDF]](https://arxiv.org/abs/2109.04269)
-
-
-## Asynchronous Increment Federated Learning
 
 ### 2020
 
