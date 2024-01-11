@@ -10,7 +10,7 @@ If you find some overlooked papers, please open issues or pull requests(recommen
 
 <!-- update-time-start -->
 
-**Last Update: Jul 11, 2023 21:09:01**
+**Last Update: Jan 11, 2024 11:33:01**
 
 <!-- update-time-end -->
 
@@ -24,10 +24,8 @@ If you find some overlooked papers, please open issues or pull requests(recommen
 
 ### 2021
 
-- **[FedSA]** FedSA: A staleness-aware asynchronous Federated Learning algorithm with non-IID data (_FGCS Elsevier_) [[PDF]](https://www.sciencedirect.com/science/article/abs/pii/S0167739X2100064)
-- **[SAFA]** SAFA: a Semi-Asynchronous Protocol for Fast Federated Learning with Low Overhead (_IEEE Transactions on Computers_) [[PDF]](https://www.computer.org/csdl/journal/tc/2021/05/09093123/1jNu0qlnwSk)
+- **[FedSA]** FedSA: A staleness-aware asynchronous Federated Learning algorithm with non-IID data (_FGCS Elsevier_) [[PDF]](https://www.sciencedirect.com/science/article/abs/pii/S0167739X21000649)
 - **[FedDR]** FedDR -- Randomized Douglas-Rachford Splitting Algorithms for Nonconvex Federated Composite Optimization (_ResearchGate_) [[PDF]](https://www.researchgate.net/publication/349880146_FedDR_--_Randomized_Douglas-Rachford_Splitting_Algorithms_for_Nonconvex_Federated_Composite_Optimization?enrichId=rgreq-75be60e8182e96c4544e855110f94039-XXX&enrichSource=Y292ZXJQYWdlOzM0OTg4MDE0NjtBUzoxMDI2MDIwMjYyMDE5MDc4QDE2MjE2MzM3MDE0ODA%3D&el=1_x_2&_esc=publicationCoverPdf)
-- **[AFSGD-VP]** Privacy-Preserving Asynchronous Vertical Federated Learning Algorithms for Multiparty Collaborative Learning (_TNNLS_) [[PDF]](https://ieeexplore.ieee.org/abstract/document/9463409/)
 - An Asynchronous Federated Learning Approach for a Security Source Code Scanner (_ICISSP_) [[PDF]](https://www.researchgate.net/publication/349402236_An_Asynchronous_Federated_Learning_Approach_for_a_Security_Source_Code_Scanner?enrichId=rgreq-91295cf9d6b78d8ff49812fae57abbf2-XXX&enrichSource=Y292ZXJQYWdlOzM0OTQwMjIzNjtBUzoxMDA2NjY1OTE4ODQwODM1QDE2MTcwMTkyNjY2MDQ%3D&el=1_x_2&_esc=publicationCoverPdf)
 - **[FedConD]** Asynchronous Federated Learning for Sensor Data with Concept Drift (_arXiv_) [[PDF]](https://arxiv.org/abs/2109.00151)
 
@@ -44,8 +42,28 @@ If you find some overlooked papers, please open issues or pull requests(recommen
 
 ### 2018
 
-- Asynchronous Federated Learning for Geospatial Applications (_ECML PKDD_) [[PDF]](https://link.springer.com/chapter/10.1007/978-3-030-14880-5_2)
 - Federated learning for ultra-reliable low-latency V2V communications (_GLOBECOM_) [[PDF]](https://arxiv.org/abs/1807.08127)
+
+
+## K-Asynchronous or Semi-Asynchronous
+
+### 2022
+
+- **[KAFL]** KAFL: Achieving High Training Efficiency for Fast-K Asynchronous Federated Learning (_ICDCS_) [[PDF]](https://ieeexplore.ieee.org/abstract/document/9912266)
+- **[WKAFL]** Towards Efficient and Stable K-Asynchronous Federated Learning With Unbounded Stale Gradients on Non-IID Data (_IEEE TPDS_) [[PDF]](https://ieeexplore.ieee.org/abstract/document/9712243)
+- **[FedBuff]** Federated Learning with Buffered Asynchronous Aggregation (_AISTATS_) [[PDF]](https://arxiv.org/abs/2106.06639)
+
+### 2021
+
+- **[FedSA]** FedSA: A Semi-Asynchronous Federated Learning Mechanism in Heterogeneous Edge Computing (_IEEE JSAC_) [[PDF]](https://ieeexplore.ieee.org/abstract/document/9562538)
+- **[SAFA]** SAFA: a Semi-Asynchronous Protocol for Fast Federated Learning with Low Overhead (_IEEE Transactions on Computers_) [[PDF]](https://www.computer.org/csdl/journal/tc/2021/05/09093123/1jNu0qlnwSk)
+
+
+## Privacy-Preserving
+
+### 2021
+
+- **[AFSGD-VP]** Privacy-Preserving Asynchronous Vertical Federated Learning Algorithms for Multiparty Collaborative Learning (_TNNLS_) [[PDF]](https://ieeexplore.ieee.org/abstract/document/9463409)
 
 
 ## Hierarchical or Tier-based
@@ -61,7 +79,6 @@ If you find some overlooked papers, please open issues or pull requests(recommen
 
 - Client-Edge-Cloud Hierarchical Federated Learning (_IEEE/ACM SEC_) [[PDF]](https://ieeexplore.ieee.org/abstract/document/9996746)
 - Hierarchical Federated Learning With Quantization: Convergence Analysis and System Design (_IEEE TWC_) [[PDF]](https://ieeexplore.ieee.org/abstract/document/9834296)
-- **[FedBuff]** Federated Learning with Buffered Asynchronous Aggregation (_AISTATS_) [[PDF]](https://arxiv.org/abs/2106.06639)
 
 ### 2021
 
@@ -105,6 +122,20 @@ If you find some overlooked papers, please open issues or pull requests(recommen
 ### 2020
 
 - **[VAFL]** VAFL: a Method of Vertical Asynchronous Federated Learning (_ICML 2020_) [[PDF]](https://arxiv.org/abs/2109.04269)
+
+
+## Asynchronous Increment Federated Learning
+
+### 2020
+
+- **[VAFL]** VAFL: a Method of Vertical Asynchronous Federated Learning (_ICML 2020_) [[PDF]](https://arxiv.org/abs/2109.04269)
+
+
+## Application
+
+### 2018
+
+- Asynchronous Federated Learning for Geospatial Applications (_ECML PKDD_) [[PDF]](https://link.springer.com/chapter/10.1007/978-3-030-14880-5_2)
 
 
 ## General Federated Learning
