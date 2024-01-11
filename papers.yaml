@@ -129,6 +129,13 @@ privacy-preserving:
       conf: TNNLS
       links:
         PDF: https://ieeexplore.ieee.org/abstract/document/9463409
+    
+    - title: "Secure Aggregation for Buffered Asynchronous Federated Learning"
+      abbr: "BASecAgg"
+      year: 2021
+      conf: arXiv
+      links:
+        PDF: https://arxiv.org/abs/2110.02177
 
 hierarchical:
   title: "Hierarchical or Tier-based"
@@ -233,8 +240,8 @@ fairness:
       links:
         PDF: https://ieeexplore.ieee.org/abstract/document/9916164
 
-continual_learning:
-  title: "Continual Learning"
+increment:
+  title: "Asynchronous Federated Increment Learning"
   split_by_year: true
   list:
     - title: "Asynchronous Federated Continual Learning"
@@ -274,16 +281,6 @@ vertical:
       links:
         PDF: https://ieeexplore.ieee.org/abstract/document/9463409
 
-increment:
-  title: "Asynchronous Increment Federated Learning"
-  split_by_year: true
-  list:
-    - title: "VAFL: a Method of Vertical Asynchronous Federated Learning"
-      abbr: "VAFL"
-      year: 2020
-      conf: ICML 2020
-      links:
-        PDF: https://arxiv.org/abs/2109.04269
 
 application:
   title: "Application"
