@@ -7,14 +7,7 @@ fully_asynchronous:
       year: 2021
       conf: FGCS Elsevier
       links:
-        PDF: https://www.sciencedirect.com/science/article/abs/pii/S0167739X2100064
-
-    - title: "SAFA: a Semi-Asynchronous Protocol for Fast Federated Learning with Low Overhead"
-      abbr: SAFA
-      year: 2021
-      conf: IEEE Transactions on Computers
-      links:
-        PDF: https://www.computer.org/csdl/journal/tc/2021/05/09093123/1jNu0qlnwSk
+        PDF: https://www.sciencedirect.com/science/article/abs/pii/S0167739X21000649
 
     - title: "FedDR -- Randomized Douglas-Rachford Splitting Algorithms for Nonconvex Federated Composite Optimization"
       abbr: FedDR
@@ -22,13 +15,6 @@ fully_asynchronous:
       conf: ResearchGate
       links:
         PDF: https://www.researchgate.net/publication/349880146_FedDR_--_Randomized_Douglas-Rachford_Splitting_Algorithms_for_Nonconvex_Federated_Composite_Optimization?enrichId=rgreq-75be60e8182e96c4544e855110f94039-XXX&enrichSource=Y292ZXJQYWdlOzM0OTg4MDE0NjtBUzoxMDI2MDIwMjYyMDE5MDc4QDE2MjE2MzM3MDE0ODA%3D&el=1_x_2&_esc=publicationCoverPdf
-
-    - title: "Privacy-Preserving Asynchronous Vertical Federated Learning Algorithms for Multiparty Collaborative Learning"
-      abbr: "AFSGD-VP"
-      year: 2021
-      conf: TNNLS
-      links:
-        PDF: https://ieeexplore.ieee.org/abstract/document/9463409/
 
     - title: "An Asynchronous Federated Learning Approach for a Security Source Code Scanner"
       abbr: ""
@@ -73,13 +59,6 @@ fully_asynchronous:
       links:
         PDF: https://ieeexplore.ieee.org/abstract/document/8843942
 
-    - title: "Asynchronous Federated Learning for Geospatial Applications"
-      abbr:
-      year: 2018
-      conf: ECML PKDD
-      links:
-        PDF: https://link.springer.com/chapter/10.1007/978-3-030-14880-5_2
-
     - title: "Federated learning for ultra-reliable low-latency V2V communications"
       abbr:
       year: 2018
@@ -100,6 +79,56 @@ fully_asynchronous:
       conf: TNNLS
       links:
         PDF: https://ieeexplore.ieee.org/abstract/document/8945292
+
+semi-asynchronous:
+  title: "K-Asynchronous or Semi-Asynchronous"
+  split_by_year: true
+  list:
+    - title: "FedSA: A Semi-Asynchronous Federated Learning Mechanism in Heterogeneous Edge Computing"
+      abbr: "FedSA"
+      year: 2021
+      conf: IEEE JSAC
+      links:
+        PDF: https://ieeexplore.ieee.org/abstract/document/9562538
+    
+    - title: "SAFA: a Semi-Asynchronous Protocol for Fast Federated Learning with Low Overhead"
+      abbr: SAFA
+      year: 2021
+      conf: IEEE Transactions on Computers
+      links:
+        PDF: https://www.computer.org/csdl/journal/tc/2021/05/09093123/1jNu0qlnwSk
+    
+    - title: "KAFL: Achieving High Training Efficiency for Fast-K Asynchronous Federated Learning"
+      abbr: KAFL
+      year: 2022
+      conf: ICDCS
+      links:
+        PDF: https://ieeexplore.ieee.org/abstract/document/9912266
+    
+    - title: "Towards Efficient and Stable K-Asynchronous Federated Learning With Unbounded Stale Gradients on Non-IID Data"
+      abbr: WKAFL
+      year: 2022
+      conf: IEEE TPDS
+      links:
+        PDF: https://ieeexplore.ieee.org/abstract/document/9712243
+    
+    - title: "Federated Learning with Buffered Asynchronous Aggregation"
+      abbr: "FedBuff"
+      year: 2022
+      conf: AISTATS
+      links:
+        PDF: https://arxiv.org/abs/2106.06639
+
+privacy-preserving:
+  title: "Privacy-Preserving"
+  split_by_year: true
+  list:
+    - title: "Privacy-Preserving Asynchronous Vertical Federated Learning Algorithms for Multiparty Collaborative Learning"
+      abbr: "AFSGD-VP"
+      year: 2021
+      conf: TNNLS
+      links:
+        PDF: https://ieeexplore.ieee.org/abstract/document/9463409
 
 hierarchical:
   title: "Hierarchical or Tier-based"
@@ -167,13 +196,6 @@ hierarchical:
       conf: arXiv
       links:
         PDF: https://arxiv.org/abs/2010.05958\
-
-    - title: "Federated Learning with Buffered Asynchronous Aggregation"
-      abbr: "FedBuff"
-      year: 2022
-      conf: AISTATS
-      links:
-        PDF: https://arxiv.org/abs/2106.06639
 
     - title: Scheduling and Aggregation Design for Asynchronous Federated Learning Over Wireless Networks
       abbr:
@@ -251,6 +273,29 @@ vertical:
       conf: TNNLS
       links:
         PDF: https://ieeexplore.ieee.org/abstract/document/9463409
+
+increment:
+  title: "Asynchronous Increment Federated Learning"
+  split_by_year: true
+  list:
+    - title: "VAFL: a Method of Vertical Asynchronous Federated Learning"
+      abbr: "VAFL"
+      year: 2020
+      conf: ICML 2020
+      links:
+        PDF: https://arxiv.org/abs/2109.04269
+
+application:
+  title: "Application"
+  split_by_year: true
+  list:
+    - title: "Asynchronous Federated Learning for Geospatial Applications"
+      abbr:
+      year: 2018
+      conf: ECML PKDD
+      links:
+        PDF: https://link.springer.com/chapter/10.1007/978-3-030-14880-5_2
+
 
 general_federated_learning:
   title: "General Federated Learning"
